@@ -1,0 +1,57 @@
+
+INSERT INTO author (name) VALUES ('George Orwell');
+INSERT INTO author (name) VALUES ('Yaşar Kemal');
+INSERT INTO author (name) VALUES ('Fyodor Dostoyevski');
+INSERT INTO author (name) VALUES ('Franz Kafka');
+INSERT INTO author (name) VALUES ('Sabahattin Ali');
+INSERT INTO author (name) VALUES ('J.R.R. Tolkien');
+INSERT INTO author (name) VALUES ('J.K. Rowling');
+INSERT INTO author (name) VALUES ('Albert Camus');
+INSERT INTO author (name) VALUES ('Aldous Huxley');
+INSERT INTO author (name) VALUES ('Oğuz Atay');
+INSERT INTO author (name) VALUES ('Ahmet Hamdi Tanpınar');
+INSERT INTO author (name) VALUES ('Paulo Coelho');
+INSERT INTO author (name) VALUES ('Stefan Zweig');
+INSERT INTO author (name) VALUES ('Antoine de Saint-Exupéry');
+INSERT INTO author (name) VALUES ('William Golding');
+INSERT INTO author (name) VALUES ('Douglas Adams');
+
+
+INSERT INTO publish_house (name) VALUES ('Can Yayınları');
+INSERT INTO publish_house (name) VALUES ('Yapı Kredi Yayınları');
+INSERT INTO publish_house (name) VALUES ('İş Bankası Kültür Yayınları');
+INSERT INTO publish_house (name) VALUES ('Metis Yayınları');
+INSERT INTO publish_house (name) VALUES ('İthaki Yayınları');
+INSERT INTO publish_house (name) VALUES ('İletişim Yayıncılık');
+INSERT INTO publish_house (name) VALUES ('Dergah Yayınları');
+INSERT INTO publish_house (name) VALUES ('Alfa Yayıncılık');
+
+
+
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('1984', 'Distopik bir başyapıt.', 1949, 1, 1);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Hayvan Çiftliği', 'Bir siyasi hiciv.', 1945, 1, 1);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('İnce Memed', 'Anadolu''nun destansı öyküsü.', 1955, 2, 2);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Suç ve Ceza', 'İnsan ruhunun derinliklerinde bir yolculuk.', 1866, 3, 3);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Yeraltından Notlar', 'Varoluşsal sancılar üzerine.', 1864, 3, 3);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Dönüşüm', 'Modern insanın yalnızlığı ve yabancılaşması.', 1915, 4, 1);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Kürk Mantolu Madonna', 'Unutulmaz bir aşk hikayesi.', 1943, 5, 2);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Kuyucaklı Yusuf', 'Toplumsal gerçekçi bir roman.', 1937, 5, 2);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Yüzüklerin Efendisi: Yüzük Kardeşliği', 'Fantastik bir dünyanın başlangıcı.', 1954, 6, 4);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Harry Potter ve Felsefe Taşı', 'Büyülü bir maceranın ilk adımı.', 1997, 7, 2);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Yabancı', 'Varoluşçuluk felsefesinin temel taşlarından.', 1942, 8, 1);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Veba', 'Bir veba salgını sırasında yaşananlar.', 1947, 8, 1);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Cesur Yeni Dünya', 'Teknolojinin kontrol ettiği distopik bir gelecek.', 1932, 9, 5);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Tutunamayanlar', 'Türk edebiyatının en önemli post-modern romanlarından.', 1972, 10, 6);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Saatleri Ayarlama Enstitüsü', 'Doğu ve Batı arasında sıkışmış Türk toplumuna bir bakış.', 1961, 11, 7);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Simyacı', 'Kendi kişisel menkıbesinin peşindeki çobanın hikayesi.', 1988, 12, 1);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Satranç', 'Bir gemi yolculuğunda geçen psikolojik bir gerilim.', 1943, 13, 3);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Küçük Prens', 'Büyüklere yazılmış bir çocuk masalı.', 1943, 14, 1);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Sineklerin Tanrısı', 'Issız bir adada mahsur kalan çocukların hayatta kalma mücadelesi.', 1954, 15, 3);
+INSERT INTO book (title, description, publication_year, author_id, publish_house_id) VALUES ('Otostopçunun Galaksi Rehberi', 'Absürt bir bilim kurgu komedisi.', 1979, 16, 8);
+
+
+INSERT INTO app_user (username) VALUES ('Bugra_Ademoglu');
+INSERT INTO app_user (username) VALUES ('Ediz_Najim');
+INSERT INTO app_user (username) VALUES ('Beren_Uyan');
+INSERT INTO app_user (username) VALUES ('Softtech');
+INSERT INTO app_user (username) VALUES ('Kitap_Kurdu');
